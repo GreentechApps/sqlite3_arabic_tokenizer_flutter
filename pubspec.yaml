@@ -39,8 +39,8 @@ flutter:
         pluginClass: Sqlite3ArabicTokenizerFlutterPlugin
       ios:
         pluginClass: Sqlite3ArabicTokenizerFlutterPlugin
-      linux:
-        pluginClass: Sqlite3ArabicTokenizerFlutterPlugin
+#      linux:
+#        pluginClass: Sqlite3ArabicTokenizerFlutterPlugin
       macos:
         pluginClass: Sqlite3ArabicTokenizerFlutterPlugin
       windows:
