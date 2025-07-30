@@ -17,7 +17,7 @@ First, add `sqlite3_arabic_tokenizer_flutter` as a dependency in your pubspec.ya
 
 ```yaml
 dependencies:
-  sqlite3_arabic_tokenizer_flutter: ^0.0.1
+  sqlite3_arabic_tokenizer_flutter: ^0.0.2
 ```
 
 Don't forget to `flutter pub get`.
