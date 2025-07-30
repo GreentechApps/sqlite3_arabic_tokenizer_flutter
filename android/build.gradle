@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'com.android.tools.build:gradle:8.7.3'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -29,8 +29,9 @@ android {
         namespace 'org.gtaf.sqlite3_arabic_tokenizer_flutter'
     }
 
-    compileSdkVersion 34
-    ndkVersion "25.1.8937393"
+    compileSdkVersion 35
+    // https://developer.android.com/guide/practices/page-sizes#ndk-build_1
+    ndkVersion "28.2.13676358"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -47,7 +48,7 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
     }
 
     dependencies {
